@@ -1,0 +1,610 @@
+html{ height: 100%;}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVEGADOR */
+
+.navegador ul li{
+    background-color: #ebebeb;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    word-spacing: 5px;
+    height: 25px;
+    width: 195px;
+    display: inline-block;
+    padding: 10px;
+    border: solid white 4px;
+    border-radius: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navegador{
+    background-color: #6cb8b3;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INICIO */
+
+.cajaprincipal{
+    width: 70%;
+    background-color: #bbb7b2;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #beb09b;
+    font-size: 50px;
+    border: 40px;
+    border-radius: 40px;
+    margin: 40px;
+    font-family: system-ui, -apple-system, sans-serif;
+    margin-left: 18rem;
+    padding-bottom: 0.05rem;
+    padding-top: 0.1rem;
+    height: 70%;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imagen{
+    border-radius: 20px;
+    max-width: 20%;
+    height: auto;
+    margin: 4rem;
+}
+
+.cajatexto-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%; /* Altura responsiva */
+    width: 90%; /* Ancho responsivo */
+    margin: 2rem auto 0 auto; /* Márgenes superior e inferior de 2rem, centrado horizontalmente */
+}
+
+.cajaimagen{
+    flex:1;
+    text-align: center;
+    padding-left: 0.2rem;
+
+}
+
+.cajaimagen img{
+    border-radius: 20px;
+    height: 270px;
+    width: 200px;
+    margin-right: 5rem;
+}
+
+.cajatexto-inicio h3 {
+    color: #346573;
+    text-align: center;
+    position: relative;
+    font-size: 3.5rem; /* Usar 'rem' para dimensiones responsive */
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.cajatexto-inicio h4 {
+    padding: 10px;
+    color: #346573;
+    text-align: center;
+    position:relative;
+    font-size: 66%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    margin-left: -40px;
+    margin-bottom: 5rem;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    background-color: #b6dde7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #6cb8b3;  
+    color: #fff; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.imagenfooter{
+    width: 30px;
+    height: 30px;
+    border: solid black 2px;
+
+}
+
+footer p{
+    font-size: 20px; 
+    margin: 0; 
+}
+
+/* DATOS PERSONALES */
+
+.cajatextodp {
+    width: 60%;
+    background-color: #bbb7b2;
+    text-align: center;
+    padding: 20px;
+    color: #beb09b;
+    font-size: 50px;
+    border: 40px;
+    border-radius: 40px;
+    margin: 50px;
+    font-family: system-ui, -apple-system, sans-serif;
+    max-height: 500px;
+    margin-left: 23rem;
+    padding-bottom: 5rem;
+    height: 400px;
+}
+
+.textodp{
+    padding: 10px;
+    color: #346573;
+    text-align: center;
+    position:relative;
+    left:13%;
+    bottom: 280px;
+    font-size: 73%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    max-height: 120px;
+}
+
+.imagen-datos{
+    width: 19%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    left: -34%;
+    top: 55px;
+}
+
+/* COMPETENCIAS */
+
+.cajatexto-competencias {
+    width: 60%;
+    background-color: #bbb7b2;
+    text-align: center;
+    padding: 10px;
+    color: #beb09b;
+    font-size: 50px;
+    border: 40px;
+    border-radius: 40px;
+    margin: 50px;
+    font-family: system-ui, -apple-system, sans-serif;
+    max-height: 500px;
+    margin-left: 23rem;
+    padding-bottom: 5rem;
+    height: 340px;
+}
+
+.textocompetencias{
+    padding: 10px;
+    color: #346573;
+    text-align: center;
+    position:relative;
+    left:14%;
+    top:-210px;
+    font-size: 73%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    max-height: 160px;
+}
+
+.imagen-competencias {
+    width: 21%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    left: -34%;
+    top: 70px;
+}
+
+/* EDUCACIÓN */
+
+.textoeducacion{
+    padding: 10px;
+    color: #346573;
+    text-align: center;
+    position:relative;
+    left:15%;
+    top:-210px;
+    font-size: 53%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 150px;
+}
+
+.cajatextoeducacion{
+    height: 460px;
+    max-width: 90%;
+    width: 90%;
+    background-color: #b7aea5;
+    text-align: center;
+    padding: 20px;
+    color: #7d8185;
+    font-size: 50px;
+    border: 40px;
+    border-radius: 40px;
+    margin: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-height: 620px;
+    margin-left: 80px;
+}
+
+.cajatextoeducacion img{
+    width: 16%;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    left: -36%;
+    top:95px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Esto oculta la barra de desplazamiento horizontal */
+    background-image:url("fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* EXPERIENCIA */
+
+.cajatextoexp {
+    width: 60%;
+    background-color: #bbb7b2;
+    text-align: center;
+    padding: 10px;
+    color: #beb09b;
+    font-size: 50px;
+    border: 40px;
+    border-radius: 40px;
+    margin: 50px;
+    font-family: system-ui, -apple-system, sans-serif;
+    max-height: 500px;
+    margin-left: 23rem;
+    padding-bottom: 5rem;
+    height: 340px;
+}
+
+.imgexperiencia {
+    width: 21%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    left: -36%;
+    top: 40px;
+}
+
+.textoexperiencia{
+    padding: 10px;
+    color: #346573;
+    text-align: center;
+    position:relative;
+    left:13%;
+    top:-270px;
+    font-size: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textoexperiencia2{
+    padding: 10px;
+    color: #346573;
+    text-align: center;
+    position:relative;
+    left:13%;
+    top:-270px;
+    font-size: 53%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* CONTACTO */
+
+#formularioContacto {
+    max-width: 600px; /* Ajusta el ancho máximo según sea necesario */
+    margin: auto; /* Centra el formulario en el contenedor padre */
+    margin-top: 5rem;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block; /* Coloca cada etiqueta en una línea nueva */
+    margin-bottom: 10px; /* Agrega un pequeño espacio debajo de cada etiqueta */
+    font-size: 25px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 15px; /* Ajusta el relleno según sea necesario */
+    margin-bottom: 20px; /* Agrega un espacio entre los campos */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto */
+}
+
+/* Estilo para el botón de enviar */
+button {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 20px; /* Ajusta el relleno según sea necesario */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Cambia el estilo del botón cuando se pasa sobre él */
+button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 18px; /* Ajusta el tamaño de fuente según tu preferencia */
+    margin-top: -10px; /* Mueve el mensaje hacia arriba */
+}   
+
+/* FOOTER */
+
+.textofooter{
+    text-align: center;
+    flex-grow: 1;
+    margin-right: 13rem;
+}
+
+.logolinkedin{
+    width: 10%;
+    height: 10%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label[for="menu"] {
+    display: none;
+    /* Agrega estilos de diseño a tu etiqueta ☰ aquí */
+}
+
+@media screen and (max-width: 700px) and (max-height: 700px) {
+
+    /* MENU HAMBURGUESA */
+    .navegador ul {
+        display: none;
+        background-color: white;
+    }
+    
+    .navegador label[for="menu"] {
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        background-color: cadetblue;
+    }
+    
+    .navegador input[type="checkbox"] {
+        display: none;
+    }
+    
+    .navegador input[type="checkbox"]:checked ~ ul {
+        display: block;
+        background-color: white;
+    }
+    
+    .navegador input[type="checkbox"]:checked ~ label[for="menu"] {
+        background: lightgrey;
+    }
+    
+    .navegador ul li {
+        margin: 0;
+        text-align: left;
+    }   
+
+    /* INICIO */
+    .cajaprincipal {
+        height: 16rem;
+        margin-left: 2rem;
+        width: 65%;
+        padding-bottom: 6rem;
+        margin-top: 1rem;
+    }
+
+    .imagen{
+        height: 30%;
+        width: 20%;
+        border: 2px solid #333; /* Agregar un borde */
+        margin-top: -3rem; /* Desplazar hacia arriba */
+        margin-right: -6rem; /* Desplazar hacia la derecha */
+    }
+
+
+    .cajatexto-inicio h3 {
+        font-size: 22px;
+        margin-top: 17rem;
+    }   
+
+    .cajatexto-inicio h4 {
+        font-size: 20px;
+        margin-left: 0.5rem;
+        padding-left: 0;
+    }
+
+    /* DATOS PERSONALES */
+
+    .cajatextodp {
+        margin: 0;
+        margin-left: 3.5rem;
+        margin-top: 0.3rem;
+        padding-bottom: 0;
+    }
+
+    .imagen-datos {
+        width: 40%;
+        margin-top: -40px;
+        margin-left: 8.5rem;
+    }
+
+    .textodp {
+        font-size: 18px;
+        padding: 10px;
+        border: 20px;
+        border-radius: 20px;
+        margin: 20px;
+        max-height: 300px;
+        margin-left: -3rem;
+        padding-bottom: 4rem;
+        margin-top: 340px;
+        height: auto;
+    }
+
+    /* COMPETENCIAS */
+
+    .cajatexto-competencias {
+        margin: 0;
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        padding-bottom: 0;
+    }
+
+    .textocompetencias {
+        font-size: 16px;
+        padding: 10px;
+        border: 20px;
+        border-radius: 20px;
+        margin: 20px;
+        max-height: 300px;
+        margin-left: -3rem;
+        padding-bottom: 4rem;
+        margin-top: 15rem;
+        height: auto;
+    }
+
+    .imagen-competencias{
+        width: 50%;
+        margin-left: 8.5rem;
+        top: 0.8rem;
+    }
+
+    /* EDUCACIÓN */
+    
+    .cajatextoeducacion {
+        margin: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        width: 75%;
+        margin-left: 1.5rem;
+    }
+
+    .textoeducacion {
+        font-size: 14px;
+        padding: 10px;
+        border: 20px;
+        border-radius: 20px;
+        margin: 20px;
+        max-height: 300px;
+        margin-left: -3rem;
+        padding-bottom: 4rem;
+        margin-top: 13rem;
+        height: auto;
+    }
+
+    .cajatextoeducacion img{
+        width: 40%;
+        margin-left: 11rem;
+        top: 0.8rem;
+    }
+    
+    /* EXPERIENCIA */
+    .cajatextoexp{
+        margin: 0;
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        padding-bottom: 0;
+    }
+
+    .textoexperiencia {
+        font-size: 16px;
+        margin-left: -3rem;
+        margin-top: 18.5rem;
+    }
+
+    .textoexperiencia2{
+        font-size: 14px;
+        padding: 10px;
+        border: 20px;
+        border-radius: 20px;
+        margin: 20px;
+        max-height: 300px;
+        margin-left: -2.7rem;
+        margin-top: 0;
+        height: auto;
+    }
+
+    .imgexperiencia{
+        width: 40%;
+        margin-left: 9.5rem;
+        top: 0.5rem;
+    }
+
+    /* CONTACTO */
+    #formularioContacto input[type="text"],
+    #formularioContacto input[type="email"],
+    #formularioContacto textarea {
+        margin: -10px 0 5px 0; /* Desplazar hacia arriba */
+        width: 80%;
+        margin-left: 1.5rem;
+        font-size: 8px;
+    }
+    
+    #formularioContacto button {
+        margin-left: 8.5rem; /* Ajusta este valor según tu preferencia */
+    }
+
+    /* FOOTER */
+    .logolinkedin {
+        width: 50px;
+        height: auto;
+        transform: scale(0.8);
+    }
+
+    .textofooter {
+        font-size: 16px;
+        transform: scale(0.8);
+        margin-right: 60px;
+    }
+}
